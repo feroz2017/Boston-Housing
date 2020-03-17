@@ -62,7 +62,7 @@ def ModelLearning(X, y):
         ax.set_ylim([-0.05, 1.05])
 
     # Visual aesthetics
-    ax.    (bbox_to_anchor=(1.05, 2.05), loc='lower left', borderaxespad = 0.)
+    ax.legend(bbox_to_anchor=(1.05, 2.05), loc='lower left', borderaxespad = 0.)
     fig.suptitle('Decision Tree Regressor Learning Performances', fontsize = 16, y = 1.03)
     fig.tight_layout()
     fig.show()
